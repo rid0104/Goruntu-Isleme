@@ -1,5 +1,5 @@
 import cv2
-import n
+import numpy as np
 
 
 gri=cv2.imread("pirinc2.jpg",0)
