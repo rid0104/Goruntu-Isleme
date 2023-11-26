@@ -12,11 +12,6 @@ cv2.imshow("gri manzara",gri)
 
 cv2.waitKey(0)
 
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Görüntüyü yükle
 img = cv2.imread('landscape.jpg', cv2.IMREAD_GRAYSCALE)
 
 histogram = np.zeros(256)
